@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Caramel&family=Lora:wght@700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lora', serif;
+}
+img{
+ position: relative;
+ border: 5px;
+ left: 160px;
+ border-radius: 50%;
+}
+.box2{
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    top: 1000px;
+    /* border: 2px solid black; */
+    /* justify-content: bottom; */
+}
+.child1{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    row-gap: 2rem;
+}
+.child2{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+column-gap: 2rem;
+}
+.child3{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+
+}
+.child4{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+gap: 2rem;
+}
+
+.box3{
+    display: flex;
+    gap: 2rem;
+    justify-content: right;
+    align-items: center;
+    margin: 20px;
+    /* border: 2px solid black; */
+}
+.parent{
+
+    margin: 50px auto;
+    padding: 50px;
+    width: 500px;
+    height: 500px;
+    
+    background-color: blueviolet;
+    border: 2px solid black;
+}
+/* .box4{
+    font-size: large;
+    margin: 25px;
+    position: relative;
+    right: 15px;
+    bottom: 440px;
+} */

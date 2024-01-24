@@ -1,0 +1,163 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 27%;
+    height: 70vh;
+    border-radius: 3rem;
+    background-color: black;
+
+}
+
+/* .parent1 {
+    width: 80%;
+    height: 20vh;
+    border: 1rem solid gray;
+    background-color: aquamarine;
+    position: relative;
+    top: 1rem;
+    left: 2rem;
+} */
+
+.parent {
+width: 30%;
+height: 70vh;
+border-radius: 4rem;
+}
+
+/* .parent2 {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    position: relative;
+    top: 3rem;
+    left: 1.9rem;
+    gap: 1.5rem;
+}
+.parent3{
+
+} */
+.box{
+    width: 270%;
+    height: 17vh;
+    position: relative;
+    left: 1.8rem;
+    top: 2rem;
+    border: 0.6rem solid gray;
+    border-radius: 1rem;
+    background-color: rgb(210, 247, 210);
+    outline: none;
+    text-align: end; 
+    font-size: large;
+}
+.calc-button{
+    width: 2.5rem;
+    height: 7.5vh;
+    color: white;
+    background-color: gray;
+    border: none;
+    border-radius: 0.3rem;
+    font-weight: bold;
+    font-size: large;
+    
+}
+.calculator-button{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    padding-top: 4rem;
+    padding-left: 2rem;
+    gap: 1rem;
+    font-size: large;
+}
+.calculator{
+    display: flex;
+    justify-content: center;
+    padding-top: 7rem;
+}
+
+
+#calc-button1{
+    width: 2.5rem;
+    height: 7.5vh;
+    color: white;
+    background-color: aqua;
+    border: none;
+    border-radius: 0.3rem;
+    font-weight: bold;
+    font-size: x-large;
+   
+}
+#calc-button{
+    width: 2.5rem;
+    height: 7.5vh;
+    color: white;
+    background-color: orange;
+    border: none;
+    border-radius: 0.3rem;
+    font-weight: bold;
+    font-size: x-large;
+    position: relative;
+    right: 4rem;
+   
+}
+#calc-button6{
+    width: 2.5rem;
+    height: 7.5vh;
+    color: white;
+    background-color: aqua;
+    border: none;
+    border-radius: 0.3rem;
+    font-weight: bold;
+    font-size: x-large;
+    position: relative;
+    right: 4rem;
+   
+}
+#calc-button5{
+    width: 2.5rem;
+    height: 7.5vh;
+    color: white;
+    background-color: green;
+    border: none;
+    border-radius: 0.3rem;
+    font-weight: bold;
+    font-size: x-large;
+    position: relative;
+    right: 4rem;
+}
+#calc-button2{
+    width: 2.5rem;
+    height: 7.5vh;
+    color: white;
+    background-color: green;
+    border: none;
+    border-radius: 0.3rem;
+    font-weight: bold;
+    font-size: x-large;
+}
+#calc-button3{
+    width: 7rem;
+    height: 7vh;
+    color: white;
+    background-color: orange;
+    border: none;
+    border-radius: 0.3rem;
+    font-weight: bold;
+    font-size: x-large;
+
+    
+}
+
+#calc-button4{
+    width: 2.5rem;
+    height: 7.5vh;
+    color: white;
+    background-color: orange;
+    border: none;
+    border-radius: 0.3rem;
+    font-weight: bold;
+    font-size: x-large;
+}
